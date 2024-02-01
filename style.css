@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+    height: 100px;
+}
+button{
+    border: 1px solid black;
+    padding: 8px 10px;
+    margin: 0%;
+    font-size: 14px;
+    border-radius: 17px;
+}
+#top{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.scheme{
+    color: white;
+    background-color: orange;
+    border: none;
+}
+#title{
+    font-size: 25px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3{
+    font-weight: 200;
+}
+#middle{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 70px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+h1{
+    font-weight: 100;
+
+}
+#bottom{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 5%;
+}
+img{
+    width: 220px;
+    height: 270px;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 10px;
+}
+#img4{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-40deg);
+}
