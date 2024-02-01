@@ -31,12 +31,17 @@ button{
     border: none;
 }
 #title{
+    display: flex;
     font-size: 25px;
     position: absolute;
     left: 50%;
     transform: translate(-50%);
     text-transform: uppercase;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#title i{
+    color: orange;
+    font-size: 31px;
 }
 h3{
     font-weight: 200;
@@ -61,6 +66,14 @@ h1{
     justify-content: space-between;
     position: absolute;
     bottom: 5%;
+    width: 97%;
+}
+#icons{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 8%;
+    width: 97%;
 }
 img{
     width: 220px;
@@ -83,4 +96,10 @@ img{
 }
 #img1{
     transform: translate(-50%,-50%) rotate(-40deg);
+}
+#item{
+    font-size: 20px;
+}
+#star{
+    color: orange;
 }
